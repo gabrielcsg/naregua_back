@@ -6,8 +6,9 @@ const { Provider } = require('../modules/accounts/models/Provider');
 const { Category } = require('../modules/services/models/Category');
 const { Service } = require('../modules/services/models/Service');
 const { Address } = require('../modules/addresses/models/Address');
+const { Schedule } = require('../modules/schedules/models/Schedule');
 
-const models = [User, Provider, Category, Service, Address];
+const models = [User, Provider, Category, Service, Address, Schedule];
 
 class Database {
   constructor() {
